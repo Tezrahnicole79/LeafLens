@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeafLens – Your Herbal Health Companion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            padding: 40px 20px;
+            background: url('https://images.unsplash.com/photo-1553531384-cc64ac0e8f56') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            text-shadow: 1px 1px 4px #000;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .downloads a, .button-link {
+            display: inline-block;
+            margin: 10px 10px 0;
+            padding: 12px 20px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0e0e0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            width: 60%;
+            max-width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>LeafLens</h2>
+    <p>Your Herbal Health Companion</p>
+</header>
+
+<div class="hero">
+    <h1>Welcome to taking back your health,<br>because your health is wealth.</h1>
+</div>
+
+<div class="section">
+    <h2>Download Our Guides</h2>
+    <div class="downloads">
+        <a href="downloads/garden_guide.pdf">🌱 Garden Guide PDF</a>
+        <a href="downloads/collard_greens_recipe.pdf">🥬 Collard Greens Recipe</a>
+    </div>
+
+    <form action="https://leaflens.us1.list-manage.com/subscribe/post" method="POST">
+        <h3>Sign Up for Downloads and Updates</h3>
+        <input type="email" name="EMAIL" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+
+    <p><a class="button-link" href="https://buy.stripe.com/test_checkout">🌟 Upgrade to LeafLens Pro</a></p>
+</div>
+
+<footer>
+    <p>📧 <a href="mailto:hello@leaflens.app">hello@leaflens.app</a></p>
+    <p>
+        <a href="#">Instagram</a> |
+        <a href="#">Facebook</a> |
+        <a href="#">TikTok</a>
+    </p>
+</footer>
+
+</body>
+</html>
